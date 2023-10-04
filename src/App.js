@@ -25,7 +25,7 @@ export default class App extends Component {
               <img src={user.avatar} alt="" className="userImage" />
 
               <p>
-                <b>UserName:</b>
+                <b>Name:</b>
                 {user.first_name + "" + user.last_name}
               </p>
               <p>
