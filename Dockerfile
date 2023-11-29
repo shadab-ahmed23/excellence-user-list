@@ -1,7 +1,7 @@
 FROM node:14-alpine
 # Add a work directory
 WORKDIR /app
-# Cache and Install dependenciess
+# Cache and Install dependencies
 COPY package.json .
 COPY yarn.lock .
 RUN yarn install
